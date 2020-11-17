@@ -33,31 +33,31 @@ public class AddressBook {
 			switch (sc.nextInt()) {
 			
 			  case 1:
-				  		System.out.println("Edit the address");
-				  		break;
+				  System.out.println("Edit the address");
+				  break;
 			  case 2:
-				  		System.out.println("Edit phone number");
-				  		break;
+				  System.out.println("Edit phone number");
+				  break;
 			  case 3:
-				  		System.out.println("Delete a person's information");
-				  		break;
+				  System.out.println("Delete a person's information");
+				  break;
 			  case 4:
-				  		System.out.println("Add a person's information");
-				  		break;
+				  System.out.println("Add a person's information");
+				  break;
 			  case 5:
-				  		System.out.println("Fetch a person's information");
-				  		break;
+				  System.out.println("Fetch a person's information");
+				  break;
 			  case 6:
-				  		System.out.println("Exit the addess book");
-				  		break;
+				  System.out.println("Exit the addess book");
+				  break;
 			  default:
-						System.out.println("Error:Enter a valid input");
+				  System.out.println("Error:Enter a valid input");
 						break;
-					}
-			
 			}
-					
+			
 		}
+					
+	}
 		
 	
 }
